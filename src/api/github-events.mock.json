@@ -1,0 +1,1544 @@
+[
+  {
+    "id": "13903861172",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 456140,
+      "login": "alias-mac",
+      "display_login": "alias-mac",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alias-mac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/456140?"
+    },
+    "repo": {
+      "id": 20929025,
+      "name": "microsoft/TypeScript",
+      "url": "https://api.github.com/repos/microsoft/TypeScript"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172",
+        "repository_url": "https://api.github.com/repos/microsoft/TypeScript",
+        "labels_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172/comments",
+        "events_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172/events",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41172",
+        "id": 1,
+        "node_id": "MDU6SXNzdWU3MjUxODU5NDA=",
+        "number": 41172,
+        "title": "Issue title goes her",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjQ1NjE0MA==",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/456140?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/alias-mac",
+          "html_url": "https://github.com/alias-mac",
+          "followers_url": "https://api.github.com/users/alias-mac/followers",
+          "following_url": "https://api.github.com/users/alias-mac/following{/other_user}",
+          "gists_url": "https://api.github.com/users/alias-mac/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/alias-mac/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/alias-mac/subscriptions",
+          "organizations_url": "https://api.github.com/users/alias-mac/orgs",
+          "repos_url": "https://api.github.com/users/alias-mac/repos",
+          "events_url": "https://api.github.com/users/alias-mac/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/alias-mac/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2020-10-20T07:50:43Z",
+        "updated_at": "2020-10-20T07:50:43Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "## This is a H2 \r\n This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum mattis nisi. Cras varius purus justo, id feugiat quam tempus at. Aenean consectetur eros sit amet sapien tincidunt, at interdum mi consectetur. Nulla imperdiet",
+        "performed_via_github_app": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/comments/712664835",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41172#issuecomment-712664835",
+        "issue_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172",
+        "id": 100,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjY2NDgzNQ==",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjQ1NjE0MA==",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/456140?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/alias-mac",
+          "html_url": "https://github.com/alias-mac",
+          "followers_url": "https://api.github.com/users/alias-mac/followers",
+          "following_url": "https://api.github.com/users/alias-mac/following{/other_user}",
+          "gists_url": "https://api.github.com/users/alias-mac/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/alias-mac/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/alias-mac/subscriptions",
+          "organizations_url": "https://api.github.com/users/alias-mac/orgs",
+          "repos_url": "https://api.github.com/users/alias-mac/repos",
+          "events_url": "https://api.github.com/users/alias-mac/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/alias-mac/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2020-10-20T07:50:43Z",
+        "updated_at": "2020-10-20T07:50:43Z",
+        "author_association": "NONE",
+        "body": "Comment text goes here. And it goes on and on. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\n",
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:50:44Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "13903846579",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "display_login": "snyk-bot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/snyk-bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19733683?"
+    },
+    "repo": {
+      "id": 159013145,
+      "name": "Dizzydaizys/TypeScript",
+      "url": "https://api.github.com/repos/Dizzydaizys/TypeScript"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 27,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/27",
+        "id": 506561846,
+        "node_id": "MDExOlB1bGxSZXF1ZXN0NTA2NTYxODQ2",
+        "html_url": "https://github.com/Dizzydaizys/TypeScript/pull/27",
+        "diff_url": "https://github.com/Dizzydaizys/TypeScript/pull/27.diff",
+        "patch_url": "https://github.com/Dizzydaizys/TypeScript/pull/27.patch",
+        "issue_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/27",
+        "number": 27,
+        "state": "open",
+        "locked": false,
+        "title": "[Snyk] Security upgrade gulp from 3.9.1 to 4.0.0",
+        "user": {
+          "login": "snyk-bot",
+          "id": 19733683,
+          "node_id": "MDQ6VXNlcjE5NzMzNjgz",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/snyk-bot",
+          "html_url": "https://github.com/snyk-bot",
+          "followers_url": "https://api.github.com/users/snyk-bot/followers",
+          "following_url": "https://api.github.com/users/snyk-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/snyk-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/snyk-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/snyk-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/snyk-bot/orgs",
+          "repos_url": "https://api.github.com/users/snyk-bot/repos",
+          "events_url": "https://api.github.com/users/snyk-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/snyk-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "<h3>Snyk has created this PR to fix one or more vulnerable packages in the `npm` dependencies of this project.</h3>\n\n![merge advice](https://app.snyk.io/badges/merge-advice/?package_manager=npm&package_name=gulp&from_version=3.9.1&to_version=4.0.0&pr_id=902c3526-5f4a-4323-97a9-ccdf52ce3530&visibility=true&has_feature_flag=false)\n\n\n#### Changes included in this PR\n\n- Changes to the following files to upgrade the vulnerable dependencies to a fixed version:\n    - package.json\n\n\n\n#### Vulnerabilities that will be fixed\n##### With an upgrade:\nSeverity                   | Priority Score (*)                   | Issue                   | Breaking Change                   | Exploit Maturity\n:-------------------------:|-------------------------|:-------------------------|:-------------------------|:-------------------------\n![high severity](https://res.cloudinary.com/snyk/image/upload/w_20,h_20/v1561977819/icon/h.png \"high severity\")  |  **589/1000**  <br/> **Why?** Has a fix available, CVSS 7.5  | Regular Expression Denial of Service (ReDoS) <br/>[SNYK-JS-MINIMATCH-1019388](https://snyk.io/vuln/SNYK-JS-MINIMATCH-1019388) |  Yes  | No Known Exploit \n\n(*) Note that the real score may have changed since the PR was raised.\n\n\n\n\n\n<details>\n  <summary><b>Commit messages</b></summary>\n  </br>\n  <details>\n    <summary>Package name: <b>gulp</b></summary>\n    The new version differs by 134 commits.</br>\n    <ul>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/55eb23a268dcc7340bb40808600fd4802848c06f\">55eb23a</a> Release: 4.0.0</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/173a532d0b79912ccf0050e6c5b4ffddd0d0fd1d\">173a532</a> Docs: Fix the installation instructions</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/ec54d09570a891d39a2ccd6f5b13d9a5dd57c68f\">ec54d09</a> Docs: Improve note about out-of-date docs</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/03b7c9860bea45649dbfd0c3d83e82a9ea58b4b2\">03b7c98</a> Docs: Update recipes to install gulp@next</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/2eba29ed5d4d72209548c5b16798ff4c2d2c50a9\">2eba29e</a> Docs: Remove run-sequence from recipes</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/76eb4d68c72a87cb1450fdbb069882ee6508f235\">76eb4d6</a> Docs: Add installation instructions &amp; update badges</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/fbc162fe92b6c73c5332b069f2347a0fe8b5d5f3\">fbc162f</a> Docs: Remove references to gulp-util</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/3011cf9a50898030304a159c9e0bad30630380e3\">3011cf9</a> Scaffold: Normalize repository</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/f27be05f6d7650ffb3ec3f9375f2d9c50c7010df\">f27be05</a> Update: Remove graceful-fs from test suite</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/361ab63d5d661dee46e032c3ecac1e085c526f1a\">361ab63</a> Upgrade: Update glob-watcher</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/064d1001528bc493282f006db6b02d24f97bd981\">064d100</a> Build: Avoid broken node 9</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/057df5963034eb6426d99650abba15e4d912b0b7\">057df59</a> Release: 4.0.0-alpha.3</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/c1ba80cb6b1a2e1469a7f422ec6ee93ac589d714\">c1ba80c</a> Breaking: Upgrade major versions of glob-watcher, gulp-cli &amp; vinyl-fs</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/89acc5c17e115ec03ec6b17341c3ffdf5e2db837\">89acc5c</a> Docs: Improve ES2015 task exporting examples (#1999)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/0ac9e043a4d6947ff2ae4496657ae44b21b5a958\">0ac9e04</a> Docs: Add &quot;Project structure&quot; section to CONTRIBUTING.md (#1859)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/723cbc40e76f3b43c3ec7d56fa4ed36298e912b4\">723cbc4</a> Docs: Fix syntax in recipe example (#1715)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/d420a6a742af91dcfc3e5a83f7552d2a8114471f\">d420a6a</a> Docs: Have gulp.lastRun take a function to avoid task registration (#1828)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/29ece6fc230fec095b84906437530b0257b26a4c\">29ece6f</a> Upgrade: Update undertaker</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/e931cb0bbf5acfb68f3e3086dae311ec733f0f14\">e931cb0</a> Docs: Fix changelog typos (#1696)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/477db84761551ab25127447a8425c79dc4808e15\">477db84</a> Docs: Add a &quot;BrowserSync with Gulp 4&quot; recipe (#1659)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/d4ed3c7e3fb13f3b1bf6f8309cca8459e53f9edb\">d4ed3c7</a> Docs: Add options.cwd for gulp.src API (#1645)</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/5dc3b07bd61c217c432c508573583827ef592cd1\">5dc3b07</a> Docs: Update gulp.watch API to align with glob-watcher</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/0c660697b8376c0185bb9e65aca0c01107b7433e\">0c66069</a> Breaking: Replace chokidar as gulp.watch with glob-watcher wrapper</li>\n      <li><a href=\"https://snyk.io/redirect/github/gulpjs/gulp/commit/c3dbc10afa7dcd8c86eebcd7f87967ac1f680da2\">c3dbc10</a> Docs: Clarify incremental builds example (#1609)</li>\n    </ul>\n\n   <a href=\"https://snyk.io/redirect/github/gulpjs/gulp/compare/9c14e3a13a73a32e424f144d62566671b2fcdbed...55eb23a268dcc7340bb40808600fd4802848c06f\">See the full diff</a>\n  </details>\n</details>\n\n\n\n\n\n\nCheck the changes in this PR to ensure they won't cause issues with your project.\n\n\n\n------------\n\n\n\n**Note:** *You are seeing this because you or someone else with access to this repository has authorized Snyk to open fix PRs.*\n\nFor more information:  <img src=\"https://api.segment.io/v1/pixel/track?data=eyJ3cml0ZUtleSI6InJyWmxZcEdHY2RyTHZsb0lYd0dUcVg4WkFRTnNCOUEwIiwiYW5vbnltb3VzSWQiOiI5MDJjMzUyNi01ZjRhLTQzMjMtOTdhOS1jY2RmNTJjZTM1MzAiLCJldmVudCI6IlBSIHZpZXdlZCIsInByb3BlcnRpZXMiOnsicHJJZCI6IjkwMmMzNTI2LTVmNGEtNDMyMy05N2E5LWNjZGY1MmNlMzUzMCJ9fQ==\" width=\"0\" height=\"0\"/>\n🧐 [View latest project report](https://app.snyk.io/org/fanaticsexposed/project/a5c3c9d7-feac-4b35-8c78-23d0e3e8ec42)\n\n🛠 [Adjust project settings](https://app.snyk.io/org/fanaticsexposed/project/a5c3c9d7-feac-4b35-8c78-23d0e3e8ec42/settings)\n\n📚 [Read more about Snyk's upgrade and patch logic](https://support.snyk.io/hc/en-us/articles/360003891078-Snyk-patches-to-fix-vulnerabilities)\n\n[//]: # (snyk:metadata:{\"prId\":\"902c3526-5f4a-4323-97a9-ccdf52ce3530\",\"dependencies\":[{\"name\":\"gulp\",\"from\":\"3.9.1\",\"to\":\"4.0.0\"}],\"packageManager\":\"npm\",\"projectPublicId\":\"a5c3c9d7-feac-4b35-8c78-23d0e3e8ec42\",\"projectUrl\":\"https://app.snyk.io/org/fanaticsexposed/project/a5c3c9d7-feac-4b35-8c78-23d0e3e8ec42?utm_source=github&utm_medium=fix-pr\",\"type\":\"auto\",\"patch\":[],\"vulns\":[\"SNYK-JS-MINIMATCH-1019388\"],\"upgrade\":[\"SNYK-JS-MINIMATCH-1019388\"],\"isBreakingChange\":true,\"env\":\"prod\",\"prType\":\"fix\",\"templateVariants\":[\"updated-fix-title\",\"priorityScore\",\"merge-advice-badge-shown\"],\"priorityScoreList\":[589]})\n",
+        "created_at": "2020-10-20T07:49:34Z",
+        "updated_at": "2020-10-20T07:49:34Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "assignees": [
+        ],
+        "requested_reviewers": [
+        ],
+        "requested_teams": [
+        ],
+        "labels": [
+        ],
+        "milestone": null,
+        "draft": false,
+        "commits_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/27/commits",
+        "review_comments_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/27/comments",
+        "review_comment_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/27/comments",
+        "statuses_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/statuses/a1fc60ffb2d3900c6494b4ff43fc2fc4cb8fe246",
+        "head": {
+          "label": "Dizzydaizys:snyk-fix-dee91e734b760907a1fe3f57227f019a",
+          "ref": "snyk-fix-dee91e734b760907a1fe3f57227f019a",
+          "sha": "a1fc60ffb2d3900c6494b4ff43fc2fc4cb8fe246",
+          "user": {
+            "login": "Dizzydaizys",
+            "id": 35997380,
+            "node_id": "MDQ6VXNlcjM1OTk3Mzgw",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/35997380?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dizzydaizys",
+            "html_url": "https://github.com/Dizzydaizys",
+            "followers_url": "https://api.github.com/users/Dizzydaizys/followers",
+            "following_url": "https://api.github.com/users/Dizzydaizys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dizzydaizys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dizzydaizys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dizzydaizys/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dizzydaizys/orgs",
+            "repos_url": "https://api.github.com/users/Dizzydaizys/repos",
+            "events_url": "https://api.github.com/users/Dizzydaizys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dizzydaizys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 159013145,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxNTkwMTMxNDU=",
+            "name": "TypeScript",
+            "full_name": "Dizzydaizys/TypeScript",
+            "private": false,
+            "owner": {
+              "login": "Dizzydaizys",
+              "id": 35997380,
+              "node_id": "MDQ6VXNlcjM1OTk3Mzgw",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/35997380?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Dizzydaizys",
+              "html_url": "https://github.com/Dizzydaizys",
+              "followers_url": "https://api.github.com/users/Dizzydaizys/followers",
+              "following_url": "https://api.github.com/users/Dizzydaizys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Dizzydaizys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Dizzydaizys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Dizzydaizys/subscriptions",
+              "organizations_url": "https://api.github.com/users/Dizzydaizys/orgs",
+              "repos_url": "https://api.github.com/users/Dizzydaizys/repos",
+              "events_url": "https://api.github.com/users/Dizzydaizys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Dizzydaizys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "html_url": "https://github.com/Dizzydaizys/TypeScript",
+            "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+            "fork": true,
+            "url": "https://api.github.com/repos/Dizzydaizys/TypeScript",
+            "forks_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/forks",
+            "keys_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/teams",
+            "hooks_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/hooks",
+            "issue_events_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/events",
+            "assignees_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/tags",
+            "blobs_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/languages",
+            "stargazers_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/stargazers",
+            "contributors_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/contributors",
+            "subscribers_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/subscribers",
+            "subscription_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/subscription",
+            "commits_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/merges",
+            "archive_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/downloads",
+            "issues_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/deployments",
+            "created_at": "2018-11-25T08:43:41Z",
+            "updated_at": "2018-11-25T08:45:00Z",
+            "pushed_at": "2020-10-20T07:49:33Z",
+            "git_url": "git://github.com/Dizzydaizys/TypeScript.git",
+            "ssh_url": "git@github.com:Dizzydaizys/TypeScript.git",
+            "clone_url": "https://github.com/Dizzydaizys/TypeScript.git",
+            "svn_url": "https://github.com/Dizzydaizys/TypeScript",
+            "homepage": "http://www.typescriptlang.org",
+            "size": 846358,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 27,
+            "license": {
+              "key": "apache-2.0",
+              "name": "Apache License 2.0",
+              "spdx_id": "Apache-2.0",
+              "url": "https://api.github.com/licenses/apache-2.0",
+              "node_id": "MDc6TGljZW5zZTI="
+            },
+            "forks": 0,
+            "open_issues": 27,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Dizzydaizys:master",
+          "ref": "master",
+          "sha": "3e4c5c95abd515eb9713b881d27ab3a93cc00461",
+          "user": {
+            "login": "Dizzydaizys",
+            "id": 35997380,
+            "node_id": "MDQ6VXNlcjM1OTk3Mzgw",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/35997380?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dizzydaizys",
+            "html_url": "https://github.com/Dizzydaizys",
+            "followers_url": "https://api.github.com/users/Dizzydaizys/followers",
+            "following_url": "https://api.github.com/users/Dizzydaizys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dizzydaizys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dizzydaizys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dizzydaizys/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dizzydaizys/orgs",
+            "repos_url": "https://api.github.com/users/Dizzydaizys/repos",
+            "events_url": "https://api.github.com/users/Dizzydaizys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dizzydaizys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 159013145,
+            "node_id": "MDEwOlJlcG9zaXRvcnkxNTkwMTMxNDU=",
+            "name": "TypeScript",
+            "full_name": "Dizzydaizys/TypeScript",
+            "private": false,
+            "owner": {
+              "login": "Dizzydaizys",
+              "id": 35997380,
+              "node_id": "MDQ6VXNlcjM1OTk3Mzgw",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/35997380?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Dizzydaizys",
+              "html_url": "https://github.com/Dizzydaizys",
+              "followers_url": "https://api.github.com/users/Dizzydaizys/followers",
+              "following_url": "https://api.github.com/users/Dizzydaizys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Dizzydaizys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Dizzydaizys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Dizzydaizys/subscriptions",
+              "organizations_url": "https://api.github.com/users/Dizzydaizys/orgs",
+              "repos_url": "https://api.github.com/users/Dizzydaizys/repos",
+              "events_url": "https://api.github.com/users/Dizzydaizys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Dizzydaizys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "html_url": "https://github.com/Dizzydaizys/TypeScript",
+            "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+            "fork": true,
+            "url": "https://api.github.com/repos/Dizzydaizys/TypeScript",
+            "forks_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/forks",
+            "keys_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/teams",
+            "hooks_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/hooks",
+            "issue_events_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/events",
+            "assignees_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/tags",
+            "blobs_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/languages",
+            "stargazers_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/stargazers",
+            "contributors_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/contributors",
+            "subscribers_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/subscribers",
+            "subscription_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/subscription",
+            "commits_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/merges",
+            "archive_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/downloads",
+            "issues_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/Dizzydaizys/TypeScript/deployments",
+            "created_at": "2018-11-25T08:43:41Z",
+            "updated_at": "2018-11-25T08:45:00Z",
+            "pushed_at": "2020-10-20T07:49:33Z",
+            "git_url": "git://github.com/Dizzydaizys/TypeScript.git",
+            "ssh_url": "git@github.com:Dizzydaizys/TypeScript.git",
+            "clone_url": "https://github.com/Dizzydaizys/TypeScript.git",
+            "svn_url": "https://github.com/Dizzydaizys/TypeScript",
+            "homepage": "http://www.typescriptlang.org",
+            "size": 846358,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 27,
+            "license": {
+              "key": "apache-2.0",
+              "name": "Apache License 2.0",
+              "spdx_id": "Apache-2.0",
+              "url": "https://api.github.com/licenses/apache-2.0",
+              "node_id": "MDc6TGljZW5zZTI="
+            },
+            "forks": 0,
+            "open_issues": 27,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/27"
+          },
+          "html": {
+            "href": "https://github.com/Dizzydaizys/TypeScript/pull/27"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/27"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/issues/27/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/27/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/pulls/27/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Dizzydaizys/TypeScript/statuses/a1fc60ffb2d3900c6494b4ff43fc2fc4cb8fe246"
+          }
+        },
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "merged": false,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 1,
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:49:34Z"
+  },
+  {
+    "id": "13903846671",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 35997380,
+      "login": "Dizzydaizys",
+      "display_login": "Dizzydaizys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dizzydaizys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35997380?"
+    },
+    "repo": {
+      "id": 159013145,
+      "name": "Dizzydaizys/TypeScript",
+      "url": "https://api.github.com/repos/Dizzydaizys/TypeScript"
+    },
+    "payload": {
+      "ref": "snyk-fix-dee91e734b760907a1fe3f57227f019a",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:49:35Z"
+  },
+  {
+    "id": "13903846607",
+    "type": "PushEvent",
+    "actor": {
+      "id": 35997380,
+      "login": "Dizzydaizys",
+      "display_login": "Dizzydaizys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dizzydaizys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35997380?"
+    },
+    "repo": {
+      "id": 159013145,
+      "name": "Dizzydaizys/TypeScript",
+      "url": "https://api.github.com/repos/Dizzydaizys/TypeScript"
+    },
+    "payload": {
+      "push_id": 5884901795,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/snyk-fix-dee91e734b760907a1fe3f57227f019a",
+      "head": "a1fc60ffb2d3900c6494b4ff43fc2fc4cb8fe246",
+      "before": "3e4c5c95abd515eb9713b881d27ab3a93cc00461",
+      "commits": [
+        {
+          "sha": "a1fc60ffb2d3900c6494b4ff43fc2fc4cb8fe246",
+          "author": {
+            "email": "snyk-bot@snyk.io",
+            "name": "snyk-bot"
+          },
+          "message": "fix: package.json to reduce vulnerabilities\n\nThe following vulnerabilities are fixed with an upgrade:\n- https://snyk.io/vuln/SNYK-JS-MINIMATCH-1019388",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Dizzydaizys/TypeScript/commits/a1fc60ffb2d3900c6494b4ff43fc2fc4cb8fe246"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:49:35Z"
+  },
+  {
+    "id": "13903682169",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 5269069,
+      "login": "MartinJohns",
+      "display_login": "MartinJohns",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MartinJohns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5269069?"
+    },
+    "repo": {
+      "id": 20929025,
+      "name": "microsoft/TypeScript",
+      "url": "https://api.github.com/repos/microsoft/TypeScript"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172",
+        "repository_url": "https://api.github.com/repos/microsoft/TypeScript",
+        "labels_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172/comments",
+        "events_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172/events",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41172",
+        "id": 2,
+        "node_id": "MDU6SXNzdWU3MjUxODU5NDA=",
+        "number": 41172,
+        "title": "Another issue title",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjQ1NjE0MA==",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/456140?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/alias-mac",
+          "html_url": "https://github.com/alias-mac",
+          "followers_url": "https://api.github.com/users/alias-mac/followers",
+          "following_url": "https://api.github.com/users/alias-mac/following{/other_user}",
+          "gists_url": "https://api.github.com/users/alias-mac/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/alias-mac/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/alias-mac/subscriptions",
+          "organizations_url": "https://api.github.com/users/alias-mac/orgs",
+          "repos_url": "https://api.github.com/users/alias-mac/repos",
+          "events_url": "https://api.github.com/users/alias-mac/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/alias-mac/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2020-10-20T04:32:03Z",
+        "updated_at": "2020-10-20T07:35:58Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "## This is a H2 \r\n This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum mattis nisi. Cras varius purus justo, id feugiat quam tempus at. Aenean consectetur eros sit amet sapien tincidunt, at interdum mi consectetur. Nulla imperdiet",
+        "performed_via_github_app": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/comments/712657068",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41172#issuecomment-712657068",
+        "issue_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41172",
+        "id": 201,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjY1NzA2OA==",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjUyNjkwNjk=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/5269069?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MartinJohns",
+          "html_url": "https://github.com/MartinJohns",
+          "followers_url": "https://api.github.com/users/MartinJohns/followers",
+          "following_url": "https://api.github.com/users/MartinJohns/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MartinJohns/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MartinJohns/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MartinJohns/subscriptions",
+          "organizations_url": "https://api.github.com/users/MartinJohns/orgs",
+          "repos_url": "https://api.github.com/users/MartinJohns/repos",
+          "events_url": "https://api.github.com/users/MartinJohns/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MartinJohns/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2020-10-20T07:35:58Z",
+        "updated_at": "2020-10-20T07:35:58Z",
+        "author_association": "CONTRIBUTOR",
+        "body": "Comment text goes here. And it goes on and on. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\n",
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:35:58Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "13903672236",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 9800850,
+      "login": "Andarist",
+      "display_login": "Andarist",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Andarist",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9800850?"
+    },
+    "repo": {
+      "id": 133923210,
+      "name": "Andarist/TypeScript",
+      "url": "https://api.github.com/repos/Andarist/TypeScript"
+    },
+    "payload": {
+      "ref": "fix/create-element-new-jsx-transform",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:35:11Z"
+  },
+  {
+    "id": "13903636463",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 813661,
+      "login": "matthieusieben",
+      "display_login": "matthieusieben",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthieusieben",
+      "avatar_url": "https://avatars.githubusercontent.com/u/813661?"
+    },
+    "repo": {
+      "id": 20929025,
+      "name": "microsoft/TypeScript",
+      "url": "https://api.github.com/repos/microsoft/TypeScript"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116",
+        "repository_url": "https://api.github.com/repos/microsoft/TypeScript",
+        "labels_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116/comments",
+        "events_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116/events",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41116",
+        "id": 2,
+        "node_id": "MDU6SXNzdWU3MjIyMzc0NTA=",
+        "number": 41116,
+        "title": "Another issue title",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjgxMzY2MQ==",
+          "avatar_url": "https://avatars0.githubusercontent.com/u/813661?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/matthieusieben",
+          "html_url": "https://github.com/matthieusieben",
+          "followers_url": "https://api.github.com/users/matthieusieben/followers",
+          "following_url": "https://api.github.com/users/matthieusieben/following{/other_user}",
+          "gists_url": "https://api.github.com/users/matthieusieben/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/matthieusieben/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/matthieusieben/subscriptions",
+          "organizations_url": "https://api.github.com/users/matthieusieben/orgs",
+          "repos_url": "https://api.github.com/users/matthieusieben/repos",
+          "events_url": "https://api.github.com/users/matthieusieben/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/matthieusieben/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 611777722,
+            "node_id": "MDU6TGFiZWw2MTE3Nzc3MjI=",
+            "url": "https://api.github.com/repos/microsoft/TypeScript/labels/Needs%20Investigation",
+            "name": "Needs Investigation",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "This issue needs a team member to investigate its status."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+          "login": "weswigham",
+          "id": 2932786,
+          "node_id": "MDQ6VXNlcjI5MzI3ODY=",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/2932786?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/weswigham",
+          "html_url": "https://github.com/weswigham",
+          "followers_url": "https://api.github.com/users/weswigham/followers",
+          "following_url": "https://api.github.com/users/weswigham/following{/other_user}",
+          "gists_url": "https://api.github.com/users/weswigham/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/weswigham/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/weswigham/subscriptions",
+          "organizations_url": "https://api.github.com/users/weswigham/orgs",
+          "repos_url": "https://api.github.com/users/weswigham/repos",
+          "events_url": "https://api.github.com/users/weswigham/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/weswigham/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "assignees": [
+          {
+            "login": "weswigham",
+            "id": 2932786,
+            "node_id": "MDQ6VXNlcjI5MzI3ODY=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/2932786?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/weswigham",
+            "html_url": "https://github.com/weswigham",
+            "followers_url": "https://api.github.com/users/weswigham/followers",
+            "following_url": "https://api.github.com/users/weswigham/following{/other_user}",
+            "gists_url": "https://api.github.com/users/weswigham/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/weswigham/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/weswigham/subscriptions",
+            "organizations_url": "https://api.github.com/users/weswigham/orgs",
+            "repos_url": "https://api.github.com/users/weswigham/repos",
+            "events_url": "https://api.github.com/users/weswigham/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/weswigham/received_events",
+            "type": "User",
+            "site_admin": false
+          }
+        ],
+        "milestone": {
+          "url": "https://api.github.com/repos/microsoft/TypeScript/milestones/129",
+          "html_url": "https://github.com/microsoft/TypeScript/milestone/129",
+          "labels_url": "https://api.github.com/repos/microsoft/TypeScript/milestones/129/labels",
+          "id": 5861339,
+          "node_id": "MDk6TWlsZXN0b25lNTg2MTMzOQ==",
+          "number": 129,
+          "title": "TypeScript 4.2.0",
+          "description": "",
+          "creator": {
+            "login": "RyanCavanaugh",
+            "id": 6685088,
+            "node_id": "MDQ6VXNlcjY2ODUwODg=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/6685088?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RyanCavanaugh",
+            "html_url": "https://github.com/RyanCavanaugh",
+            "followers_url": "https://api.github.com/users/RyanCavanaugh/followers",
+            "following_url": "https://api.github.com/users/RyanCavanaugh/following{/other_user}",
+            "gists_url": "https://api.github.com/users/RyanCavanaugh/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/RyanCavanaugh/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/RyanCavanaugh/subscriptions",
+            "organizations_url": "https://api.github.com/users/RyanCavanaugh/orgs",
+            "repos_url": "https://api.github.com/users/RyanCavanaugh/repos",
+            "events_url": "https://api.github.com/users/RyanCavanaugh/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/RyanCavanaugh/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 49,
+          "closed_issues": 8,
+          "state": "open",
+          "created_at": "2020-09-09T21:52:38Z",
+          "updated_at": "2020-10-19T22:12:46Z",
+          "due_on": null,
+          "closed_at": null
+        },
+        "comments": 3,
+        "created_at": "2020-10-20T04:32:03Z",
+        "updated_at": "2020-10-20T07:32:12Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "## This is a H2 \r\n This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum mattis nisi. Cras varius purus justo, id feugiat quam tempus at. Aenean consectetur eros sit amet sapien tincidunt, at interdum mi consectetur. Nulla imperdiet",
+        "performed_via_github_app": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/comments/712655098",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41116#issuecomment-712655098",
+        "issue_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116",
+        "id": 202,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjY1NTA5OA==",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjgxMzY2MQ==",
+          "avatar_url": "https://avatars0.githubusercontent.com/u/813661?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/matthieusieben",
+          "html_url": "https://github.com/matthieusieben",
+          "followers_url": "https://api.github.com/users/matthieusieben/followers",
+          "following_url": "https://api.github.com/users/matthieusieben/following{/other_user}",
+          "gists_url": "https://api.github.com/users/matthieusieben/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/matthieusieben/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/matthieusieben/subscriptions",
+          "organizations_url": "https://api.github.com/users/matthieusieben/orgs",
+          "repos_url": "https://api.github.com/users/matthieusieben/repos",
+          "events_url": "https://api.github.com/users/matthieusieben/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/matthieusieben/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2020-10-20T07:32:12Z",
+        "updated_at": "2020-10-20T07:32:12Z",
+        "author_association": "NONE",
+        "body": "Comment text goes here. And it goes on and on. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\n",
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:32:12Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "13903586249",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 813661,
+      "login": "matthieusieben",
+      "display_login": "matthieusieben",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthieusieben",
+      "avatar_url": "https://avatars.githubusercontent.com/u/813661?"
+    },
+    "repo": {
+      "id": 20929025,
+      "name": "microsoft/TypeScript",
+      "url": "https://api.github.com/repos/microsoft/TypeScript"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116",
+        "repository_url": "https://api.github.com/repos/microsoft/TypeScript",
+        "labels_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116/comments",
+        "events_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116/events",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41116",
+        "id": 3,
+        "node_id": "MDU6SXNzdWU3MjIyMzc0NTA=",
+        "number": 41116,
+        "title": "This is an expanded issue",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjgxMzY2MQ==",
+          "avatar_url": "https://avatars0.githubusercontent.com/u/813661?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/matthieusieben",
+          "html_url": "https://github.com/matthieusieben",
+          "followers_url": "https://api.github.com/users/matthieusieben/followers",
+          "following_url": "https://api.github.com/users/matthieusieben/following{/other_user}",
+          "gists_url": "https://api.github.com/users/matthieusieben/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/matthieusieben/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/matthieusieben/subscriptions",
+          "organizations_url": "https://api.github.com/users/matthieusieben/orgs",
+          "repos_url": "https://api.github.com/users/matthieusieben/repos",
+          "events_url": "https://api.github.com/users/matthieusieben/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/matthieusieben/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 611777722,
+            "node_id": "MDU6TGFiZWw2MTE3Nzc3MjI=",
+            "url": "https://api.github.com/repos/microsoft/TypeScript/labels/Needs%20Investigation",
+            "name": "Needs Investigation",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "This issue needs a team member to investigate its status."
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+          "login": "weswigham",
+          "id": 2932786,
+          "node_id": "MDQ6VXNlcjI5MzI3ODY=",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/2932786?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/weswigham",
+          "html_url": "https://github.com/weswigham",
+          "followers_url": "https://api.github.com/users/weswigham/followers",
+          "following_url": "https://api.github.com/users/weswigham/following{/other_user}",
+          "gists_url": "https://api.github.com/users/weswigham/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/weswigham/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/weswigham/subscriptions",
+          "organizations_url": "https://api.github.com/users/weswigham/orgs",
+          "repos_url": "https://api.github.com/users/weswigham/repos",
+          "events_url": "https://api.github.com/users/weswigham/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/weswigham/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "assignees": [
+          {
+            "login": "weswigham",
+            "id": 2932786,
+            "node_id": "MDQ6VXNlcjI5MzI3ODY=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/2932786?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/weswigham",
+            "html_url": "https://github.com/weswigham",
+            "followers_url": "https://api.github.com/users/weswigham/followers",
+            "following_url": "https://api.github.com/users/weswigham/following{/other_user}",
+            "gists_url": "https://api.github.com/users/weswigham/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/weswigham/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/weswigham/subscriptions",
+            "organizations_url": "https://api.github.com/users/weswigham/orgs",
+            "repos_url": "https://api.github.com/users/weswigham/repos",
+            "events_url": "https://api.github.com/users/weswigham/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/weswigham/received_events",
+            "type": "User",
+            "site_admin": false
+          }
+        ],
+        "milestone": {
+          "url": "https://api.github.com/repos/microsoft/TypeScript/milestones/129",
+          "html_url": "https://github.com/microsoft/TypeScript/milestone/129",
+          "labels_url": "https://api.github.com/repos/microsoft/TypeScript/milestones/129/labels",
+          "id": 5861339,
+          "node_id": "MDk6TWlsZXN0b25lNTg2MTMzOQ==",
+          "number": 129,
+          "title": "TypeScript 4.2.0",
+          "description": "",
+          "creator": {
+            "login": "RyanCavanaugh",
+            "id": 6685088,
+            "node_id": "MDQ6VXNlcjY2ODUwODg=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/6685088?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RyanCavanaugh",
+            "html_url": "https://github.com/RyanCavanaugh",
+            "followers_url": "https://api.github.com/users/RyanCavanaugh/followers",
+            "following_url": "https://api.github.com/users/RyanCavanaugh/following{/other_user}",
+            "gists_url": "https://api.github.com/users/RyanCavanaugh/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/RyanCavanaugh/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/RyanCavanaugh/subscriptions",
+            "organizations_url": "https://api.github.com/users/RyanCavanaugh/orgs",
+            "repos_url": "https://api.github.com/users/RyanCavanaugh/repos",
+            "events_url": "https://api.github.com/users/RyanCavanaugh/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/RyanCavanaugh/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 49,
+          "closed_issues": 8,
+          "state": "open",
+          "created_at": "2020-09-09T21:52:38Z",
+          "updated_at": "2020-10-19T22:12:46Z",
+          "due_on": null,
+          "closed_at": null
+        },
+        "comments": 2,
+        "created_at": "2020-10-15T11:13:03Z",
+        "updated_at": "2020-10-20T07:27:56Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "## This is a H2 \r\n This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum mattis nisi. Cras varius purus justo, id feugiat quam tempus at. Aenean consectetur eros sit amet sapien tincidunt, at interdum mi consectetur. Nulla imperdiet.\r\n\r\n### This is a H3 \r\n More lorem ipsum to fill the example. Aenean orci diam, pretium ut elit at, ultrices sollicitudin sapien. In sollicitudin ut nibh sit amet faucibus. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\r\n\r\n* A list!\r\n* With list items.\r\n* And bullets.",
+        "performed_via_github_app": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/comments/712652912",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41116#issuecomment-712652912",
+        "issue_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41116",
+        "id": 301,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjY1MjkxMg==",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjgxMzY2MQ==",
+          "avatar_url": "https://avatars0.githubusercontent.com/u/813661?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/matthieusieben",
+          "html_url": "https://github.com/matthieusieben",
+          "followers_url": "https://api.github.com/users/matthieusieben/followers",
+          "following_url": "https://api.github.com/users/matthieusieben/following{/other_user}",
+          "gists_url": "https://api.github.com/users/matthieusieben/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/matthieusieben/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/matthieusieben/subscriptions",
+          "organizations_url": "https://api.github.com/users/matthieusieben/orgs",
+          "repos_url": "https://api.github.com/users/matthieusieben/repos",
+          "events_url": "https://api.github.com/users/matthieusieben/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/matthieusieben/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2020-10-20T07:27:56Z",
+        "updated_at": "2020-10-20T07:27:56Z",
+        "author_association": "NONE",
+        "body": "Comment text goes here. And it goes on and on. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\n",
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:27:57Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "13903562170",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 5269069,
+      "login": "MartinJohns",
+      "display_login": "MartinJohns",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MartinJohns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5269069?"
+    },
+    "repo": {
+      "id": 20929025,
+      "name": "microsoft/TypeScript",
+      "url": "https://api.github.com/repos/microsoft/TypeScript"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143",
+        "repository_url": "https://api.github.com/repos/microsoft/TypeScript",
+        "labels_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143/comments",
+        "events_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143/events",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41143",
+        "id": 3,
+        "node_id": "MDU6SXNzdWU3MjM1NjkzMTQ=",
+        "number": 41143,
+        "title": "Unexpected const assertion behavior when used directly inside ternary expression",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjg4ODM0NjU=",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/8883465?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/btoo",
+          "html_url": "https://github.com/btoo",
+          "followers_url": "https://api.github.com/users/btoo/followers",
+          "following_url": "https://api.github.com/users/btoo/following{/other_user}",
+          "gists_url": "https://api.github.com/users/btoo/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/btoo/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/btoo/subscriptions",
+          "organizations_url": "https://api.github.com/users/btoo/orgs",
+          "repos_url": "https://api.github.com/users/btoo/repos",
+          "events_url": "https://api.github.com/users/btoo/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/btoo/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 371615203,
+            "node_id": "MDU6TGFiZWwzNzE2MTUyMDM=",
+            "url": "https://api.github.com/repos/microsoft/TypeScript/labels/Working%20as%20Intended",
+            "name": "Working as Intended",
+            "color": "fbca04",
+            "default": false,
+            "description": "The behavior described is the intended behavior; this is not a bug"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+        ],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2020-10-16T22:38:27Z",
+        "updated_at": "2020-10-20T07:25:55Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "## This is a H2 \r\n This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum mattis nisi. Cras varius purus justo, id feugiat quam tempus at. Aenean consectetur eros sit amet sapien tincidunt, at interdum mi consectetur. Nulla imperdiet.\r\n\r\n### This is a H3 \r\n More lorem ipsum to fill the example. Aenean orci diam, pretium ut elit at, ultrices sollicitudin sapien. In sollicitudin ut nibh sit amet faucibus. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\r\n\r\n* A list!\r\n* With list items.\r\n* And bullets.",
+        "performed_via_github_app": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/comments/712651906",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41143#issuecomment-712651906",
+        "issue_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143",
+        "id": 302,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjY1MTkwNg==",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjUyNjkwNjk=",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/5269069?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MartinJohns",
+          "html_url": "https://github.com/MartinJohns",
+          "followers_url": "https://api.github.com/users/MartinJohns/followers",
+          "following_url": "https://api.github.com/users/MartinJohns/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MartinJohns/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MartinJohns/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MartinJohns/subscriptions",
+          "organizations_url": "https://api.github.com/users/MartinJohns/orgs",
+          "repos_url": "https://api.github.com/users/MartinJohns/repos",
+          "events_url": "https://api.github.com/users/MartinJohns/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MartinJohns/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2020-10-20T07:25:55Z",
+        "updated_at": "2020-10-20T07:25:55Z",
+        "author_association": "CONTRIBUTOR",
+        "body": "Comment text goes here. And it goes on and on. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\n",
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T07:25:55Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "13902806104",
+    "type": "PushEvent",
+    "actor": {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "display_login": "github-actions",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+    },
+    "repo": {
+      "id": 203769220,
+      "name": "angular-indonesia/TypeScript",
+      "url": "https://api.github.com/repos/angular-indonesia/TypeScript"
+    },
+    "payload": {
+      "push_id": 5884401177,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "77c4de498ffbd7695d2ad543626aaec3a7ae4fe0",
+      "before": "99eeabe7461c0a50e7a0b0eef1f5a7d233604772",
+      "commits": [
+        {
+          "sha": "77c4de498ffbd7695d2ad543626aaec3a7ae4fe0",
+          "author": {
+            "email": "typescriptbot@microsoft.com",
+            "name": "TypeScript Bot"
+          },
+          "message": "Update package-lock.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/angular-indonesia/TypeScript/commits/77c4de498ffbd7695d2ad543626aaec3a7ae4fe0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-10-20T06:07:28Z",
+    "org": {
+      "id": 26397340,
+      "login": "angular-indonesia",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/angular-indonesia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26397340?"
+    }
+  },
+  {
+    "id": "13902607535",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 8883465,
+      "login": "btoo",
+      "display_login": "btoo",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/btoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8883465?"
+    },
+    "repo": {
+      "id": 20929025,
+      "name": "microsoft/TypeScript",
+      "url": "https://api.github.com/repos/microsoft/TypeScript"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143",
+        "repository_url": "https://api.github.com/repos/microsoft/TypeScript",
+        "labels_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143/comments",
+        "events_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143/events",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41143",
+        "id": 3,
+        "node_id": "MDU6SXNzdWU3MjM1NjkzMTQ=",
+        "number": 41143,
+        "title": "Unexpected const assertion behavior when used directly inside ternary expression",
+        "user": {
+          "login": "btoo",
+          "id": 8883465,
+          "node_id": "MDQ6VXNlcjg4ODM0NjU=",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/8883465?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/btoo",
+          "html_url": "https://github.com/btoo",
+          "followers_url": "https://api.github.com/users/btoo/followers",
+          "following_url": "https://api.github.com/users/btoo/following{/other_user}",
+          "gists_url": "https://api.github.com/users/btoo/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/btoo/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/btoo/subscriptions",
+          "organizations_url": "https://api.github.com/users/btoo/orgs",
+          "repos_url": "https://api.github.com/users/btoo/repos",
+          "events_url": "https://api.github.com/users/btoo/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/btoo/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 371615203,
+            "node_id": "MDU6TGFiZWwzNzE2MTUyMDM=",
+            "url": "https://api.github.com/repos/microsoft/TypeScript/labels/Working%20as%20Intended",
+            "name": "Working as Intended",
+            "color": "fbca04",
+            "default": false,
+            "description": "The behavior described is the intended behavior; this is not a bug"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+        ],
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2020-10-16T22:38:27Z",
+        "updated_at": "2020-10-20T05:43:15Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "## This is a H2 \r\n This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum mattis nisi. Cras varius purus justo, id feugiat quam tempus at. Aenean consectetur eros sit amet sapien tincidunt, at interdum mi consectetur. Nulla imperdiet.\r\n\r\n### This is a H3 \r\n More lorem ipsum to fill the example. Aenean orci diam, pretium ut elit at, ultrices sollicitudin sapien. In sollicitudin ut nibh sit amet faucibus. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\r\n\r\n* A list!\r\n* With list items.\r\n* And bullets.",
+        "performed_via_github_app": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/TypeScript/issues/comments/712605899",
+        "html_url": "https://github.com/microsoft/TypeScript/issues/41143#issuecomment-712605899",
+        "issue_url": "https://api.github.com/repos/microsoft/TypeScript/issues/41143",
+        "id": 303,
+        "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjYwNTg5OQ==",
+        "user": {
+          "login": "userhandlegoesher",
+          "id": 42,
+          "node_id": "MDQ6VXNlcjg4ODM0NjU=",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/8883465?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/btoo",
+          "html_url": "https://github.com/btoo",
+          "followers_url": "https://api.github.com/users/btoo/followers",
+          "following_url": "https://api.github.com/users/btoo/following{/other_user}",
+          "gists_url": "https://api.github.com/users/btoo/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/btoo/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/btoo/subscriptions",
+          "organizations_url": "https://api.github.com/users/btoo/orgs",
+          "repos_url": "https://api.github.com/users/btoo/repos",
+          "events_url": "https://api.github.com/users/btoo/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/btoo/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2020-10-20T05:43:15Z",
+        "updated_at": "2020-10-20T05:43:15Z",
+        "author_association": "NONE",
+        "body": "Comment text goes here. And it goes on and on. Ut vel nunc libero. Phasellus condimentum tellus ac nunc vestibulum elementum. Etiam massa lorem, vulputate vitae tincidunt ac, aliquet et enim.\n",
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2020-10-20T05:43:15Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "13902478109",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11639412,
+      "login": "GulajavaMinistudio",
+      "display_login": "GulajavaMinistudio",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GulajavaMinistudio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11639412?"
+    },
+    "repo": {
+      "id": 85444248,
+      "name": "GulajavaMinistudio/TypeScript",
+      "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript"
+    },
+    "payload": {
+      "push_id": 5884235662,
+      "size": 17,
+      "distinct_size": 17,
+      "ref": "refs/heads/master",
+      "head": "43f3cebfbcafe8e62148c5f35f63b9dc841505e8",
+      "before": "3b04fe84263a81ba94c37837ee210715c7021038",
+      "commits": [
+        {
+          "sha": "43433eb2f1b1269da6cae855f259d00b742c37cf",
+          "author": {
+            "email": "mateuszburzynski@gmail.com",
+            "name": "Mateusz Burzyński"
+          },
+          "message": "Add tests related to the key prop when using new JSX transform",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/43433eb2f1b1269da6cae855f259d00b742c37cf"
+        },
+        {
+          "sha": "9fd2c2cb4b8982c8bf74ba9a956b14d2ba17cf1e",
+          "author": {
+            "email": "mateuszburzynski@gmail.com",
+            "name": "Mateusz Burzyński"
+          },
+          "message": "Add auto-import for createElement when using the new JSX transform",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/9fd2c2cb4b8982c8bf74ba9a956b14d2ba17cf1e"
+        },
+        {
+          "sha": "cdf9c3b59565729f60a6b6fc1104cfe52986d737",
+          "author": {
+            "email": "typescriptbot@microsoft.com",
+            "name": "TypeScript Bot"
+          },
+          "message": "Update package-lock.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/cdf9c3b59565729f60a6b6fc1104cfe52986d737"
+        },
+        {
+          "sha": "3918e6c535a8d5748d35f27184218ce6df335273",
+          "author": {
+            "email": "andersh@microsoft.com",
+            "name": "Anders Hejlsberg"
+          },
+          "message": "Move anonymous type instantiation cache from AST node to root type (#41084)\n\n* Move anonymous type instantiation cache from AST node to root type\r\n\r\n* Use \"root\" type reference as cache location for deferred type references\r\n\r\n* Add test\r\n\r\nCo-authored-by: Andrew Branch <andrew@wheream.io>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/3918e6c535a8d5748d35f27184218ce6df335273"
+        },
+        {
+          "sha": "08e4f369fbb2a5f0c30dee973618d65e6f7f09f8",
+          "author": {
+            "email": "jesse.trinity@microsoft.com",
+            "name": "Jesse Trinity"
+          },
+          "message": "Add editor configurable filename-based ATA (#40952)\n\n* add typeAcquisition:inferTypings\r\n\r\n* remove unused property\r\n\r\n* handle inferred and external projects separately\r\n\r\n* update missed rename\r\n\r\n* fix tests\r\n\r\n* pass as external compilerOption\r\n\r\n* update test\r\n\r\n* remove hostConfig reference\r\n\r\n* change option name\r\n\r\n* remove extraneous property\r\n\r\n* add inferredProjectCompilerOptions",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/08e4f369fbb2a5f0c30dee973618d65e6f7f09f8"
+        },
+        {
+          "sha": "15cec9d1f7ef8043cf456fc9a288fc2b3f83f073",
+          "author": {
+            "email": "shkamat@microsoft.com",
+            "name": "Sheetal Nandi"
+          },
+          "message": "Optimizes project loading in few scenarios (#41126)\n\n* Some refactoring of forEachResolvedProjectReference\r\n\r\n* More refactoring\r\n\r\n* Test before the change\r\n\r\n* When loading project tree, load projects that directly or indirectly reference the projects we are looking for\r\n\r\n* Optimize finding project in solution scenario by directly finding possible default project through projectReferenceRedirect\r\nThis helps in avoiding loading indirect projects when solution indirectly referenced default project",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/15cec9d1f7ef8043cf456fc9a288fc2b3f83f073"
+        },
+        {
+          "sha": "4638c685b145b1eb8fda486f2dacfcc3490cb27a",
+          "author": {
+            "email": "andersh@microsoft.com",
+            "name": "Anders Hejlsberg"
+          },
+          "message": "Properly reduce intersections of string literal and template literal types (#41162)\n\n* Properly reduce single element intersections\r\n\r\n* Add regression test\r\n\r\n* Accept new baselines",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/4638c685b145b1eb8fda486f2dacfcc3490cb27a"
+        },
+        {
+          "sha": "b8dfa28ca8df1a1a1fef35533c4ba996bdd86868",
+          "author": {
+            "email": "wwigham@gmail.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Do not consider empty jsx expressions semantically important children",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/b8dfa28ca8df1a1a1fef35533c4ba996bdd86868"
+        },
+        {
+          "sha": "de93173f53109ed8d4feef94b4a93d860a9c448e",
+          "author": {
+            "email": "wwigham@gmail.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Revert \"Add extensions to jsx automatically added import, per babel change (#40871)\"\n\nThis reverts commit 798b18be6ee5cd1bf20c85de162fe994a6b66011.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/de93173f53109ed8d4feef94b4a93d860a9c448e"
+        },
+        {
+          "sha": "33b8a4fbd2a9cddfd18fd53f45872b001e2b5421",
+          "author": {
+            "email": "wwigham@gmail.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Accept updated baselines",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/33b8a4fbd2a9cddfd18fd53f45872b001e2b5421"
+        },
+        {
+          "sha": "76df14126d6a79ca8385fccd70cdfc810f9446d2",
+          "author": {
+            "email": "wewigham@microsoft.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Merge pull request #41167 from weswigham/revert-extension-implicit-import\n\nRevert \"Add extensions to jsx automatically added import, per babel change (#40871)\"",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/76df14126d6a79ca8385fccd70cdfc810f9446d2"
+        },
+        {
+          "sha": "aa9445bc1553ea736100abd98b9f66f233ff91e7",
+          "author": {
+            "email": "wwigham@gmail.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Merge branch 'master' into empty-jsx-child",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/aa9445bc1553ea736100abd98b9f66f233ff91e7"
+        },
+        {
+          "sha": "c29d3f8f6fcfbf45a745608d117936906a9d4802",
+          "author": {
+            "email": "wwigham@gmail.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Accept updated baselines",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/c29d3f8f6fcfbf45a745608d117936906a9d4802"
+        },
+        {
+          "sha": "c5cbd52f9a229a6b3bcd9550735d223b082c3caa",
+          "author": {
+            "email": "wewigham@microsoft.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Merge pull request #41166 from weswigham/empty-jsx-child\n\nDo not consider empty jsx expressions semantically important children",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/c5cbd52f9a229a6b3bcd9550735d223b082c3caa"
+        },
+        {
+          "sha": "0ad22de146fa60d96d80f5029be5a61c8e67a1a5",
+          "author": {
+            "email": "wwigham@gmail.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Merge branch 'master' into fix/create-element-new-jsx-transform",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/0ad22de146fa60d96d80f5029be5a61c8e67a1a5"
+        },
+        {
+          "sha": "8b728c8bcd4bb8dde250805dbb60194c4340c2e3",
+          "author": {
+            "email": "wewigham@microsoft.com",
+            "name": "Wesley Wigham"
+          },
+          "message": "Merge pull request #41151 from Andarist/fix/create-element-new-jsx-transform\n\nFix/create element new jsx transform",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/8b728c8bcd4bb8dde250805dbb60194c4340c2e3"
+        },
+        {
+          "sha": "43f3cebfbcafe8e62148c5f35f63b9dc841505e8",
+          "author": {
+            "email": "11639412+GulajavaMinistudio@users.noreply.github.com",
+            "name": "Gulajava Ministudio"
+          },
+          "message": "Merge pull request #360 from microsoft/master\n\nCreate a new pull request by comparing",
+          "distinct": true,
+          "url": "https://api.github.com/repos/GulajavaMinistudio/TypeScript/commits/43f3cebfbcafe8e62148c5f35f63b9dc841505e8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2020-10-20T05:26:50Z"
+  }
+]
