@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import * as s from "./app.styles";
 import {useGithubIssueComments} from "./api/github-events.api";
-import ErrorDetails from "./components/error-details";
 import {GithubIssue} from "./api/github-events.model";
 import ReactMarkdown from 'react-markdown'
+
+// import FindRepoForm from './components/FindRepoForm/FindRepoForm';
+import IssueTitle from './components/IssueTitle/IssueTitle';
+// import Issue from './components/Issue/Issue';
+import ErrorDetails from "./components/error-details";
 
 function App() {
     const initialFormState = { user: 'graycoreio', repo: 'daffodil' };
@@ -13,7 +17,7 @@ function App() {
     const [user, setUser] = useState<string>(initialFormState.user);
     const [repo, setRepo] = useState<string>(initialFormState.repo);
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = () => {
         setForm({ user, repo });
     };
 
@@ -41,6 +45,7 @@ function App() {
     return (
         <s.container>
             <s.header>GitHub Issues and Comments</s.header>
+            {/*<FindRepoForm submit={handleSubmit} />*/}
             <form onSubmit={handleSubmit}>
                 <input type="text" name="user" placeholder="user" value={user} onChange={handleChange}/>
                 <input type="text" name="repo" placeholder="repo" value={repo} onChange={handleChange}/>
@@ -49,7 +54,7 @@ function App() {
 
             {data?.map((issue: GithubIssue) => (
                 <div key={issue.id + issue.title}>
-                    <s.issuer_title>{issue.title}</s.issuer_title>
+                    <IssueTitle issue={issue} />
                     <ReactMarkdown>{issue.body}</ReactMarkdown>
                     {issue.comments.map(comment =>
                         <s.comment_body key={comment.id}>
