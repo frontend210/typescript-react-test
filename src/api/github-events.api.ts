@@ -5,7 +5,10 @@ import {useQuery} from "react-query";
 export function useGithubIssueComments(user: string, repo: string) {
     const url = `/networks/${user}/${repo}/events?per_page=100`
     return useQuery<GithubIssue[], Error>(url, () =>
-        axios.get(url).then((res) => mapResult(res.data))
+        axios.get(url).then((res) => mapResult(res.data)),
+        {
+            enabled: user && repo,
+        },
     )
 }
 

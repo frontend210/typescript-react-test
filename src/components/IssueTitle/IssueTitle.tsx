@@ -9,7 +9,6 @@ interface Props {
 }
 
 const IssueTitle: React.FC<Props> = ({ issue }) => {
-    console.log(issue)
     return (
         <>
             <s.TitleP>{issue.title}</s.TitleP>
@@ -18,7 +17,7 @@ const IssueTitle: React.FC<Props> = ({ issue }) => {
                 <span data-tip={moment(issue.created_at).format('D  MMM YYYY mm:ss')}>
                     {moment(issue.created_at).fromNow()}
                 </span>
-                <ReactTooltip place="top" type="dark" effect="solid" />
+                <ReactTooltip place="top" effect="float" type="dark"/>
             </s.MetaDataDiv>
         </>
     );

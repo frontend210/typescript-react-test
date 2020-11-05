@@ -4,7 +4,7 @@ import {useGithubIssueComments} from "./api/github-events.api";
 import {GithubIssue} from "./api/github-events.model";
 import ReactMarkdown from 'react-markdown'
 
-// import FindRepoForm from './components/FindRepoForm/FindRepoForm';
+import FindRepoForm from './components/FindRepoForm/FindRepoForm';
 import IssueTitle from './components/IssueTitle/IssueTitle';
 // import Issue from './components/Issue/Issue';
 import ErrorDetails from "./components/error-details";
@@ -14,20 +14,8 @@ function App() {
     const [form, setForm] = useState<{ user: string, repo: string }>(initialFormState);
     const { data, isLoading, isError, error } = useGithubIssueComments(form.user, form.repo);
 
-    const [user, setUser] = useState<string>(initialFormState.user);
-    const [repo, setRepo] = useState<string>(initialFormState.repo);
-
-    const handleSubmit = () => {
+    const handleSubmit = (user: string, repo: string) => {
         setForm({ user, repo });
-    };
-
-    const handleChange = (e: any) => {
-        if (e.target.name === 'user') {
-            setUser(e.target.value);
-        }
-        if (e.target.name === 'repo') {
-            setRepo(e.target.value);
-        }
     };
 
     if(isLoading) {
@@ -45,12 +33,7 @@ function App() {
     return (
         <s.container>
             <s.header>GitHub Issues and Comments</s.header>
-            {/*<FindRepoForm submit={handleSubmit} />*/}
-            <form onSubmit={handleSubmit}>
-                <input type="text" name="user" placeholder="user" value={user} onChange={handleChange}/>
-                <input type="text" name="repo" placeholder="repo" value={repo} onChange={handleChange}/>
-                <input type="submit" value="Go fetch" />
-            </form>
+            <FindRepoForm submit={handleSubmit} initialFormState={initialFormState}/>
 
             {data?.map((issue: GithubIssue) => (
                 <div key={issue.id + issue.title}>
