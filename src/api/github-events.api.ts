@@ -135,7 +135,7 @@ export function mapResult(githubEvents: GithubEvent[]): GithubIssue[] {
     //   6. Once the tests pass, verify that the app runs in a browser by running `npm start`
     //      Note that the data will look different in the browser, as the browser will render live data from Github.
 
-    let returnData = githubEvents
+    let commentEvents = githubEvents
         .filter(el => el.type === 'IssueCommentEvent')
         .map(el => {
             return {
@@ -147,21 +147,28 @@ export function mapResult(githubEvents: GithubEvent[]): GithubIssue[] {
                     id: el.payload.issue.user.id,
                     login: el.payload.issue.user.login,
                 },
-                comment: el.payload.comment
+                comment: {
+                    id: el.payload.comment.id,
+                    created_at: el.payload.comment.created_at,
+                    user: {
+                        id: el.payload.comment.user.id,
+                        login: el.payload.comment.user.login,
+                    },
+                    body: el.payload.comment.body,
+                }
             }
         });
 
 
-    // @ts-ignore
-    const githubIssues = returnData.reduce((result: any[], curEvent) => {
+    const githubIssues = commentEvents.reduce((result: any[], curEvent) => {
         const { comment: curCommand, ...rest } = curEvent;
         const existingIndex = result.findIndex(el => {
             return el.id === curEvent.id
-                && el.created_at === curEvent.created_at
-                && el.title === curEvent.title
-                && el.body === curEvent.body
-                && el.user.id === curEvent.user.id
-                && el.user.login === curEvent.user.login
+                // && el.created_at === curEvent.created_at
+                // && el.title === curEvent.title
+                // && el.body === curEvent.body
+                // && el.user.id === curEvent.user.id
+                // && el.user.login === curEvent.user.login
         });
 
         if (existingIndex === -1) {
