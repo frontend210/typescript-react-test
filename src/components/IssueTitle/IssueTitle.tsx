@@ -13,11 +13,11 @@ const IssueTitle: React.FC<Props> = ({ issue }) => {
         <>
             <s.TitleP>{issue.title}</s.TitleP>
             <s.MetaDataDiv>
-                By <s.UsernameSpan>{issue.user.login}</s.UsernameSpan> •{' '}
+                By <s.UsernameSpan>{issue.user.login}</s.UsernameSpan> • {' '}
                 <span data-tip={moment(issue.created_at).format('D  MMM YYYY mm:ss')}>
                     {moment(issue.created_at).fromNow()}
                 </span>
-                <ReactTooltip place="top" effect="float" type="dark"/>
+                <ReactTooltip place="top" effect="solid" type="dark"/>
             </s.MetaDataDiv>
         </>
     );

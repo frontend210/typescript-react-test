@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown'
 
 import FindRepoForm from './components/FindRepoForm/FindRepoForm';
 import IssueTitle from './components/IssueTitle/IssueTitle';
-// import Issue from './components/Issue/Issue';
+import Issue from './components/Issue/Issue';
 import ErrorDetails from "./components/error-details";
 
 function App() {
@@ -38,13 +38,7 @@ function App() {
             {data?.map((issue: GithubIssue) => (
                 <div key={issue.id + issue.title}>
                     <IssueTitle issue={issue} />
-                    <ReactMarkdown>{issue.body}</ReactMarkdown>
-                    {issue.comments.map(comment =>
-                        <s.comment_body key={comment.id}>
-                            <div>{comment.created_at} {comment.user.login}:</div>
-                            <ReactMarkdown>{comment.body}</ReactMarkdown>
-                        </s.comment_body>
-                    )}
+                    <Issue issue={issue} />
                 </div>
             ))}
         </s.container>
